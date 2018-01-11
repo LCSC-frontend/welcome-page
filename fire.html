@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Canvas Fireworks v1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html, body {
+				margin: 0;	
+				padding: 0;
+				height: 100%;
+				width: 100%;
+			}
+			
+			body {
+				color: #999;
+				font: 100%/18px helvetica, arial, sans-serif;
+				background:url(background.jpg) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+					
+			canvas {
+				cursor: crosshair;
+				display: block;
+				left: 0;
+				position: absolute;
+				top: 0;
+				z-index: 2;
+			}
+			#welcome{
+			  position: fixed;
+			  left: 50%;	
+			  top: 50%;
+			  font-size: 90px;
+			  line-height: 130px;
+			  color: yellow;
+			  text-align: center;
+			  font-weight: 700;
+			  width:1200px;	
+			  text-shadow: 0px 0px 0px yellow;		
+			  transform: translate(-50%,-50%); 
+			}
+            
+		</style>
+	</head>
+	<body>	
+		<div id="welcome">
+			<p>热烈欢迎</p>
+			<p>XXXX</p>
+			<p>莅临我司考察指导</p>
+		</div>
+		<script src="jquery.js"></script>
+		<script src="Stats.js"></script>
+		<script src="fireworks.js"></script>
+	</body>
+</html>
